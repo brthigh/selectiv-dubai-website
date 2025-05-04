@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectiv Dubai - Premium Visa Services</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <div class="container">
+            <div class="d-flex justify-content-end py-2">
+                <button class="btn-language active" data-lang="nl"><img src="https://flagcdn.com/16x12/nl.png" alt="Nederlands"> NL</button>
+                <button class="btn-language" data-lang="en"><img src="https://flagcdn.com/16x12/gb.png" alt="English"> EN</button>
+                <button class="btn-language" data-lang="fr"><img src="https://flagcdn.com/16x12/fr.png" alt="Français"> FR</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="Selectiv Dubai" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html" data-nl="Home" data-en="Home" data-fr="Accueil">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pakketten.html" data-nl="Visa Pakketten" data-en="Visa Packages" data-fr="Forfaits Visa">Visa Pakketten</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="voordelen.html" data-nl="Voordelen" data-en="Benefits" data-fr="Avantages">Voordelen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aanvraagproces.html" data-nl="Aanvraagproces" data-en="Application Process" data-fr="Processus de Demande">Aanvraagproces</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="over-ons.html" data-nl="Over Ons" data-en="About Us" data-fr="À Propos">Over Ons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" data-nl="Contact" data-en="Contact" data-fr="Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-8 mx-auto text-center">
+                    <h1 class="hero-title" data-nl="Uw Exclusieve Toegang tot Dubai" data-en="Your Exclusive Access to Dubai" data-fr="Votre Accès Exclusif à Dubaï">
+                        Uw Exclusieve Toegang tot Dubai
+                    </h1>
+                    <div class="gold-line mx-auto"></div>
+                    <p class="hero-subtitle" data-nl="Premium visa-diensten met directe overheidscontacten" data-en="Premium visa services with direct government contacts" data-fr="Services de visa premium avec contacts gouvernementaux directs">
+                        Premium visa-diensten met directe overheidscontacten
+                    </p>
+                    <a href="contact.html" class="btn btn-primary mt-4" data-nl="Start Uw Aanvraag" data-en="Start Your Application" data-fr="Commencer Votre Demande">
+                        Start Uw Aanvraag
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-md-12">
+                    <h2 class="section-title" data-nl="Waarom Selectiv Dubai?" data-en="Why Selectiv Dubai?" data-fr="Pourquoi Selectiv Dubai?">
+                        Waarom Selectiv Dubai?
+                    </h2>
+                    <div class="gold-line mx-auto"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 data-nl="0% Inkomstenbelasting" data-en="0% Income Tax" data-fr="0% d'Impôt sur le Revenu">
+                            0% Inkomstenbelasting
+                        </h3>
+                        <p data-nl="Profiteer van Dubai's belastingvrije inkomen en vergroot uw vermogen" data-en="Benefit from Dubai's tax-free income and grow your wealth" data-fr="Bénéficiez des revenus non imposables de Dubaï et augmentez votre patrimoine">
+                            Profiteer van Dubai's belastingvrije inkomen en vergroot uw vermogen
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3 data-nl="Wereldwijde Mobiliteit" data-en="Global Mobility" data-fr="Mobilité Mondiale">
+                            Wereldwijde Mobiliteit
+                        </h3>
+                        <p data-nl="Behoud uw vrijheid om te reizen terwijl u fiscale voordelen geniet" data-en="Maintain your freedom to travel while enjoying tax benefits" data-fr="Conservez votre liberté de voyager tout en bénéficiant d'avantages fiscaux">
+                            Behoud uw vrijheid om te reizen terwijl u fiscale voordelen geniet
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3 data-nl="Snelste Service" data-en="Fastest Service" data-fr="Service le Plus Rapide">
+                            Snelste Service
+                        </h3>
+                        <p data-nl="Emirates ID binnen 3 dagen - waar anderen weken of maanden wachten" data-en="Emirates ID within 3 days - while others wait weeks or months" data-fr="Emirates ID en 3 jours - alors que d'autres attendent des semaines ou des mois">
+                            Emirates ID binnen 3 dagen - waar anderen weken of maanden wachten
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Overview Section -->
+    <section class="packages-overview">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-md-12">
+                    <h2 class="section-title" data-nl="Onze Visa Pakketten" data-en="Our Visa Packages" data-fr="Nos Forfaits Visa">
+                        Onze Visa Pakketten
+                    </h2>
+                    <div class="gold-line mx-auto"></div>
+                    <p class="section-subtitle" data-nl="Voor elke situatie de juiste oplossing" data-en="The right solution for every situation" data-fr="La bonne solution pour chaque situation">
+                        Voor elke situatie de juiste oplossing
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="package-card">
+                        <h3 data-nl="Essential" data-en="Essential" data-fr="Essential">Essential</h3>
+                        <div class="price">€3.500</div>
+                        <p class="price-subtitle" data-nl="€8 per dag" data-en="€8 per day" data-fr="€8 par jour">€8 per dag</p>
+                        <ul class="package-features">
+                            <li data-nl="Emirates ID voor 2 jaar" data-en="Emirates ID for 2 years" data-fr="Emirates ID pour 2 ans">
+                                <i class="fas fa-check"></i> Emirates ID voor 2 jaar
+                            </li>
+                            <li data-nl="Wereldwijd zorgverzekerd" data-en="Global health insurance" data-fr="Assurance santé mondiale">
+                                <i class="fas fa-check"></i> Wereldwijd zorgverzekerd
+                            </li>
+                            <li data-nl="UAE bankrekening" data-en="UAE bank account" data-fr="Compte bancaire aux EAU">
+                                <i class="fas fa-check"></i> UAE bankrekening
+                            </li>
+                            <li data-nl="Toegang tot leningen voor vastgoed" data-en="Access to real estate loans" data-fr="Accès aux prêts immobiliers">
+                                <i class="fas fa-check"></i> Toegang tot leningen voor vastgoed
+                            </li>
+                            <li data-nl="Internationale UAE rijbewijs" data-en="International UAE driver's license" data-fr="Permis de conduire international des EAU">
+                                <i class="fas fa-check"></i> Internationale UAE rijbewijs
+                            </li>
+                        </ul>
+                        <a href="pakketten.html" class="btn btn-outline" data-nl="Meer Informatie" data-en="More Information" data-fr="Plus d'Informations">
+                            Meer Informatie
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="package-card">
+                        <h3 data-nl="Business" data-en="Business" data-fr="Business">Business</h3>
+                        <div class="price" data-nl="Op aanvraag" data-en="On request" data-fr="Sur demande">Op aanvraag</div>
+                        <p class="price-subtitle" data-nl="Zakelijke mogelijkheden" data-en="Business opportunities" data-fr="Opportunités d'affaires">
+                            Zakelijke mogelijkheden
+                        </p>
+                        <ul class="package-features">
+                            <li data-nl="Dubai visum (2 jaar)" data-en="Dubai visa (2 years)" data-fr="Visa pour Dubaï (2 ans)">
+                                <i class="fas fa-check"></i> Dubai visum (2 jaar)
+                            </li>
+                            <li data-nl="Zakelijke bankrekening" data-en="Business bank account" data-fr="Compte bancaire d'entreprise">
+                                <i class="fas fa-check"></i> Zakelijke bankrekening
+                            </li>
+                            <li data-nl="Business consultancy" data-en="Business consultancy" data-fr="Conseil aux entreprises">
+                                <i class="fas fa-check"></i> Business consultancy
+                            </li>
+                            <li data-nl="Bedrijfsregistratie in UAE" data-en="Company registration in UAE" data-fr="Enregistrement d'entreprise aux EAU">
+                                <i class="fas fa-check"></i> Bedrijfsregistratie in UAE
+                            </li>
+                        </ul>
+                        <a href="pakketten.html" class="btn btn-outline" data-nl="Meer Informatie" data-en="More Information" data-fr="Plus d'Informations">
+                            Meer Informatie
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="package-card premium">
+                        <div class="premium-badge" data-nl="PREMIUM" data-en="PREMIUM" data-fr="PREMIUM">PREMIUM</div>
+                        <h3 data-nl="Elite" data-en="Elite" data-fr="Elite">Elite</h3>
+                        <div class="price" data-nl="Op aanvraag" data-en="On request" data-fr="Sur demande">Op aanvraag</div>
+                        <p class="price-subtitle" data-nl="VIP behandeling" data-en="VIP treatment" data-fr="Traitement VIP">
+                            VIP behandeling
+                        </p>
+                        <ul class="package-features">
+                            <li data-nl="Golden Visa (5-10 jaar)" data-en="Golden Visa (5-10 years)" data-fr="Visa Gold (5-10 ans)">
+                                <i class="fas fa-check"></i> Golden Visa (5-10 jaar)
+                            </li>
+                            <li data-nl="Private Banking privileges" data-en="Private Banking privileges" data-fr="Privilèges de banque privée">
+                                <i class="fas fa-check"></i> Private Banking privileges
+                            </li>
+                            <li data-nl="Exclusieve vastgoedkansen" data-en="Exclusive real estate opportunities" data-fr="Opportunités immobilières exclusives">
+                                <i class="fas fa-check"></i> Exclusieve vastgoedkansen
+                            </li>
+                            <li data-nl="Persoonlijke concierge service" data-en="Personal concierge service" data-fr="Service de conciergerie personnelle">
+                                <i class="fas fa-check"></i> Persoonlijke concierge service
+                            </li>
+                        </ul>
+                        <a href="pakketten.html" class="btn btn-primary" data-nl="Meer Informatie" data-en="More Information" data-fr="Plus d'Informations">
+                            Meer Informatie
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="pakketten.html" class="btn btn-primary" data-nl="Bekijk Alle Pakketten" data-en="View All Packages" data-fr="Voir Tous les Forfaits">
+                    Bekijk Alle Pakketten
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-md-12">
+                    <h2 class="section-title" data-nl="Eenvoudig Aanvraagproces" data-en="Simple Application Process" data-fr="Processus de Demande Simple">
+                        Eenvoudig Aanvraagproces
+                    </h2>
+                    <div class="gold-line mx-auto"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+                    <div class="process-timeline">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4 data-nl="Gratis Consultatie" data-en="Free Consultation" data-fr="Consultation Gratuite">
+                                    Gratis Consultatie
+                                </h4>
+                                <p data-nl="Persoonlijk gesprek over uw situatie" data-en="Personal discussion about your situation" data-fr="Discussion personnelle sur votre situation">
+                                    Persoonlijk gesprek over uw situatie
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4 data-nl="Lichte Screening" data-en="Light Screening" data-fr="Évaluation Légère">
+                                    Lichte Screening
+                                </h4>
+                                <p data-nl="Beoordeling van uw geschiktheid" data-en="Assessment of your eligibility" data-fr="Évaluation de votre éligibilité">
+                                    Beoordeling van uw geschiktheid
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4 data-nl="Documentatie & Betaling" data-en="Documentation & Payment" data-fr="Documentation & Paiement">
+                                    Documentatie & Betaling
+                                </h4>
+                                <p data-nl="Paspoort kopie, selfie en betaling" data-en="Passport copy, selfie and payment" data-fr="Copie du passeport, selfie et paiement">
+                                    Paspoort kopie, selfie en betaling
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4 data-nl="Visum Ontvangst" data-en="Visa Receipt" data-fr="Réception du Visa">
+                                    Visum Ontvangst
+                                </h4>
+                                <p data-nl="Binnen 3 dagen uw Emirates ID" data-en="Your Emirates ID within 3 days" data-fr="Votre Emirates ID sous 3 jours">
+                                    Binnen 3 dagen uw Emirates ID
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="aanvraagproces.html" class="btn btn-primary" data-nl="Bekijk Het Volledige Proces" data-en="View The Full Process" data-fr="Voir Le Processus Complet">
+                    Bekijk Het Volledige Proces
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-md-12">
+                    <h2 class="section-title" data-nl="Wat Onze Klanten Zeggen" data-en="What Our Clients Say" data-fr="Ce Que Disent Nos Clients">
+                        Wat Onze Klanten Zeggen
+                    </h2>
+                    <div class="gold-line mx-auto"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="testimonial-slider">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p data-nl="Selectiv Dubai heeft het onmogelijke mogelijk gemaakt. Binnen 3 dagen had ik mijn Emirates ID, terwijl anderen maanden moesten wachten. Hun service is ongeëvenaard." data-en="Selectiv Dubai has made the impossible possible. Within 3 days I had my Emirates ID, while others had to wait months. Their service is unmatched." data-fr="Selectiv Dubai a rendu l'impossible possible. En 3 jours, j'avais mon Emirates ID, alors que d'autres devaient attendre des mois. Leur service est inégalé.">
+                                    Selectiv Dubai heeft het onmogelijke mogelijk gemaakt. Binnen 3 dagen had ik mijn Emirates ID, terwijl anderen maanden moesten wachten. Hun service is ongeëvenaard.
+                                </p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-name">Jan de Vries</div>
+                                <div class="author-title" data-nl="Ondernemer" data-en="Entrepreneur" data-fr="Entrepreneur">Ondernemer</div>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p data-nl="De fiscale voordelen die ik nu geniet zijn enorm. Dankzij Selectiv Dubai kon ik mijn onderneming probleemloos naar Dubai verplaatsen terwijl ik gewoon in Nederland blijf wonen." data-en="The tax benefits I'm now enjoying are enormous. Thanks to Selectiv Dubai, I was able to seamlessly relocate my business to Dubai while continuing to live in the Netherlands." data-fr="Les avantages fiscaux dont je bénéficie maintenant sont énormes. Grâce à Selectiv Dubai, j'ai pu déplacer mon entreprise à Dubaï en toute transparence tout en continuant à vivre aux Pays-Bas.">
+                                    De fiscale voordelen die ik nu geniet zijn enorm. Dankzij Selectiv Dubai kon ik mijn onderneming probleemloos naar Dubai verplaatsen terwijl ik gewoon in Nederland blijf wonen.
+                                </p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-name">Marieke Jansen</div>
+                                <div class="author-title" data-nl="Digital Nomad" data-en="Digital Nomad" data-fr="Nomade Numérique">Digital Nomad</div>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p data-nl="Professioneel van begin tot eind. Ze hebben me door elk aspect van het proces geleid, alle vragen beantwoord en zelfs geholpen bij het openen van mijn UAE bankrekening. Absolute aanrader!" data-en="Professional from start to finish. They guided me through every aspect of the process, answered all questions, and even helped me open my UAE bank account. Highly recommended!" data-fr="Professionnel du début à la fin. Ils m'ont guidé à travers tous les aspects du processus, ont répondu à toutes les questions et m'ont même aidé à ouvrir mon compte bancaire aux EAU. Fortement recommandé!">
+                                    Professioneel van begin tot eind. Ze hebben me door elk aspect van het proces geleid, alle vragen beantwoord en zelfs geholpen bij het openen van mijn UAE bankrekening. Absolute aanrader!
+                                </p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-name">Thomas Bakker</div>
+                                <div class="author-title" data-nl="Investeerder" data-en="Investor" data-fr="Investisseur">Investeerder</div>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title" data-nl="Klaar om uw financiële vrijheid te ontgrendelen?" data-en="Ready to unlock your financial freedom?" data-fr="Prêt à débloquer votre liberté financière?">
+                        Klaar om uw financiële vrijheid te ontgrendelen?
+                    </h2>
+                    <div class="gold-line mx-auto"></div>
+                    <p class="mb-4" data-nl="Ontvang uw Emirates ID binnen 3 dagen en profiteer van alle voordelen die Dubai te bieden heeft." data-en="Receive your Emirates ID within 3 days and enjoy all the benefits Dubai has to offer." data-fr="Recevez votre Emirates ID sous 3 jours et profitez de tous les avantages qu'offre Dubaï.">
+                        Ontvang uw Emirates ID binnen 3 dagen en profiteer van alle voordelen die Dubai te bieden heeft.
+                    </p>
+                    <a href="contact.html" class="btn btn-primary btn-lg" data-nl="Neem Contact Op" data-en="Contact Us" data-fr="Contactez-Nous">
+                        Neem Contact Op
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <img src="images/logo.png" alt="Selectiv Dubai" class="footer-logo mb-4">
+                    <p data-nl="Selectiv Dubai biedt premium visa-diensten voor ondernemers en vermogende personen die willen profiteren van Dubai's fiscale voordelen." data-en="Selectiv Dubai offers premium visa services for entrepreneurs and wealthy individuals looking to benefit from Dubai's tax advantages." data-fr="Selectiv Dubai offre des services de visa premium pour les entrepreneurs et les personnes fortunées souhaitant bénéficier des avantages fiscaux de Dubaï.">
+                        Selectiv Dubai biedt premium visa-diensten voor ondernemers en vermogende personen die willen profiteren van Dubai's fiscale voordelen.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h4 data-nl="Snelle Links" data-en="Quick Links" data-fr="Liens Rapides">Snelle Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="pakketten.html" data-nl="Visa Pakketten" data-en="Visa Packages" data-fr="Forfaits Visa">Visa Pakketten</a></li>
+                        <li><a href="voordelen.html" data-nl="Voordelen" data-en="Benefits" data-fr="Avantages">Voordelen</a></li>
+                        <li><a href="aanvraagproces.html" data-nl="Aanvraagproces" data-en="Application Process" data-fr="Processus de Demande">Aanvraagproces</a></li>
+                        <li><a href="faq
