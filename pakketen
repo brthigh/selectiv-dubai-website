@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa Pakketten - Selectiv Dubai</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <div class="container">
+            <div class="d-flex justify-content-end py-2">
+                <button class="btn-language active" data-lang="nl"><img src="https://flagcdn.com/16x12/nl.png" alt="Nederlands"> NL</button>
+                <button class="btn-language" data-lang="en"><img src="https://flagcdn.com/16x12/gb.png" alt="English"> EN</button>
+                <button class="btn-language" data-lang="fr"><img src="https://flagcdn.com/16x12/fr.png" alt="Français"> FR</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="Selectiv Dubai" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" data-nl="Home" data-en="Home" data-fr="Accueil">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="pakketten.html" data-nl="Visa Pakketten" data-en="Visa Packages" data-fr="Forfaits Visa">Visa Pakketten</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="voordelen.html" data-nl="Voordelen" data-en="Benefits" data-fr="Avantages">Voordelen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aanvraagproces.html" data-nl="Aanvraagproces" data-en="Application Process" data-fr="Processus de Demande">Aanvraagproces</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="over-ons.html" data-nl="Over Ons" data-en="About Us" data-fr="À Propos">Over Ons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" data-nl="Contact" data-en="Contact" data-fr="Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Title -->
+    <section class="page-title">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 data-nl="Visa Pakketten" data-en="Visa Packages" data-fr="Forfaits Visa">Visa Pakketten</h1>
+                    <div class="gold-line mx-auto"></div>
+                    <p data-nl="Exclusief op maat gemaakte oplossingen" data-en="Exclusively tailored solutions" data-fr="Solutions exclusivement personnalisées">
+                        Exclusief op maat gemaakte oplossingen
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-4 mb-4">
+                    <div class="package-card h-100">
+                        <h3 data-nl="Essential" data-en="Essential" data-fr="Essential">Essential</h3>
+                        <div class="price">€3.500</div>
+                        <p class="price-subtitle" data-nl="€8 per dag" data-en="€8 per day" data-fr="€8 par jour">€8 per dag</p>
+                        <ul class="package-features">
+                            <li data-nl="Emirates ID voor 2 jaar" data-en="Emirates ID for 2 years" data-fr="Emirates ID pour 2 ans">
+                                <i class="fas fa-check"></i> Emirates ID voor 2 jaar
+                            </li>
+                            <li data-nl="Volledige aanvraagbegeleiding" data-en="Complete application guidance" data-fr="Assistance complète pour la demande">
+                                <i class="fas fa-check"></i> Volledige aanvraagbegeleiding
+                            </li>
+                            <li data-nl="Wereldwijd zorgverzekerd" data-en="Global health insurance" data-fr="Assurance santé mondiale">
+                                <i class="fas fa-check"></i> Wereldwijd zorgverzekerd
+                            </li>
+                            <li data-nl="UAE bankrekening" data-en="UAE bank account" data-fr="Compte bancaire aux EAU">
+                                <i class="fas fa-check"></i> UAE bankrekening
+                            </li>
+                            <li data-nl="Toegang tot leningen voor vastgoed" data-en="Access to real estate loans" data-fr="Accès aux prêts immobiliers">
+                                <i class="fas fa-check"></i> Toegang tot leningen voor vastgoed
+                            </li>
+                            <li data-nl="Hulp bij ondernemen" data-en="Business assistance" data-fr="Assistance aux entreprises">
+                                <i class="fas fa-check"></i> Hulp bij ondernemen
+                            </li>
+                            <li data-nl="Internationale UAE rijbewijs aanvragen, direct verkrijgbaar" data-en="Apply
